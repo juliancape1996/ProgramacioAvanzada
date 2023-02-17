@@ -1,0 +1,4 @@
+Usuario: yessi 
+Ram:8.356814848 
+Version: Windows 10 Home Single Language 
+Procesador: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
