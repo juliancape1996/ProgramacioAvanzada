@@ -1,0 +1,7 @@
+{"id":1,"nombre":"Diademas","precio":"1500"}
+{"id":2,"nombre":"Diademas","precio":"1500"}
+{"id":3,"nombre":"Diademas","precio":"1500"}
+{"id":4,"nombre":"Diademas","precio":"1500"}
+{"id":5,"nombre":"Diademas","precio":"1500"}
+{"id":6,"nombre":"Diademas","precio":"1500"}
+{"id":7,"nombre":"Diademas","precio":"1500"}

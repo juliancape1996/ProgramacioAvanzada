@@ -1,0 +1,12 @@
+<%- include('./partials/header.ejs') %>
+    <h1>Hola desde Web <%= nombre%> </h1>
+        <% if("1"===1){
+          %><h2>Hola</h2><%  
+        } else {%>
+            <h2>Adios</h2>
+            <%}%>
+        <%for(let i = 1; i<=10;i++){ %>
+            <h3>Hola <%=i%></h3>
+        <%}%>
+        
+<%- include('./partials/footer.ejs') %>
