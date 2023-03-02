@@ -3,13 +3,11 @@ const {join} = require('path')
 require('ejs')
 const app = express()
 
-const rutas = require('./rutas')
-const info = require('./info')
-
+const rutas = require('./rutas.js')
 
 app.set('view engine', 'ejs')
 app.set('views',join(__dirname,'views'))
-app.use(info)
+app.use(express.static('./static/style.css'))
 app.use(rutas)
 
 app.get("/home",(req,res)=>{
@@ -19,5 +17,6 @@ app.get("/home",(req,res)=>{
 app.use((req,res)=>{
     res.send("error")
 })
+
 
 app.listen(5355)

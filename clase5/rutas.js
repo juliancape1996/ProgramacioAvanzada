@@ -12,4 +12,8 @@ router.get("/web/:nombre",(req,res)=>{
         nombre:req.params.nombre
     })
 })
+router.get('/info', (req,res)=>{
+    res.send("Hola desde Info")
+})
+
 module.exports=router;
